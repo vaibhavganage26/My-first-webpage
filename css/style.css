@@ -1,0 +1,129 @@
+body {
+        font-family: 'Square Peg', cursive;
+        margin: 0px;
+        padding: 0px;
+        background: url('/Img/gfit2.jpg');
+    }
+/* Logo section */
+    .logo{
+        position: absolute;
+        display: inline-block;
+        left: 12px;
+        top: 12px;
+        color: white;
+        font-size: 16px;
+    }
+
+    .logo img {
+        width: 70px;
+        
+    }
+/* anchor tag */
+    a {
+        text-decoration: none;
+        color: white;
+    }
+/* Navbar section */
+    .nav {
+        color: white;
+        display: block;
+        width: 82%;
+        margin: 12px auto;
+        
+
+    }
+
+    .navbar li {
+        display: inline-block;
+        padding: 20px 45px;
+        font-size: 25px;
+        font-weight: bold;
+        font-family: 'Square Peg', cursive;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: tomato;
+    }
+
+    .social-site {
+        right: 12px;
+        position: absolute;
+        text-align: right;
+        padding: 9px 0;
+        margin: -104px 12px;
+        padding-top: 25px;
+        display: inline-block;
+        float:  right;
+        padding-right: 20px;
+        position: relative;
+    }
+
+    .search img {
+        width: 28px;
+        border-radius: 12px;
+        margin: 0px 7px;
+    }
+
+    .facebook img {
+        width: 27px;
+        border-radius: 12px;
+        margin: 0px 7px;
+    }
+
+    .twitter img {
+        width: 30px;
+        border-radius: 12px;
+        margin: 0px 7px;
+    }
+
+    .insta img {
+        width: 29px;
+        border-radius: 12px;
+        margin: 0px 7px;
+    }
+
+    .youtube img {
+        width: 38px;
+        border-radius: 12px;
+        margin: 0px 7px;
+    }
+/* form section */
+    .container {
+        color: seashell;
+        padding: 58px 37px;
+        margin: 121px 42px;
+        width: 33%;
+        border-radius: 26px;
+        text-align: center;
+    }
+
+    #bt {
+        border: 2px solid rgb(3, 3, 3);
+        padding: 7px 8px;
+        border-radius: 10px;
+        color: black;
+        background-color: greenyellow;
+        font-family: 'Square Peg', cursive;
+        font-weight: bold;
+        font-size: 23px;
+    }
+
+    .formgrp input {
+        padding: 8px 15px;
+        width: 275px;
+        display: block;
+        margin: 16px auto;
+        border: black;
+        border-radius: 10px;
+        text-align: center;
+
+
+    }
+
+    .gender {
+        padding: 5px 86px;
+        margin: -5px 0px;
+        border-radius: 10px;
+    }
